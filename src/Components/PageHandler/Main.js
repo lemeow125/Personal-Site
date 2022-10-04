@@ -7,7 +7,7 @@ import About from '../../Pages/About/About';
 const Main = () => {
   return (
     <Routes> {/* The Switch decides which component to show based on the current URL.*/}
-      <Route exact path='/Home' element={<Homepage/>}></Route>
+      <Route exact path='/' element={<Homepage/>}></Route>
       <Route exact path='/About' element={<About/>}></Route>
     </Routes>
   );
